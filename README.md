@@ -1,2 +1,2 @@
-使用css,jvascript製作彈出式對話框
+使用css,jvascript製作彈出式對話框<br>
 可愛風格 / 遊戲風格/ 悄悄話
