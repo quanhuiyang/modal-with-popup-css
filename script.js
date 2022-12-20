@@ -9,12 +9,12 @@ buttonOpen.addEventListener("click", () => {
 });
 
 buttonClose.addEventListener("click", () => {
-  //關閉對話框 對話框呈現樣式改成none
+  //關閉對話框 樣式改成none
   modal.style.display = "none";
 });
 
-//target取得物件：點選暗色背景時 對話框呈現樣式改成none
-document.addEventListener("click", (e) => {
+//target取得物件：點選對話框以外物件時 樣式改成none
+addEventListener("click", (e) => {
   // console.log(e.target);
   if (e.target == modal) {
     modal.style.display = "none";
